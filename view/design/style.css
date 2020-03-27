@@ -1,0 +1,40 @@
+body {
+  color : white;
+  height: 100%;
+  background-image:linear-gradient(DodgerBlue , black);
+}
+
+h1 {
+  text-shadow:3px 3px 10px DarkSlateBlue, 0px -5px 4px Indigo, 2px -10px 6px #FFDD33, -2px -15px 11px #FF8800, 2px -25px 18px #FF2200;
+}
+
+/* Place une image à gauche et à droite de h1 */
+h1::before {
+ content:url('psyduck.png');
+}
+
+
+h1::after {
+ content:url('dices.png');
+}
+
+h1 {
+  text-align: center;
+  background-color: red;
+}
+
+form {
+  padding: 10px;
+  background-color: DodgerBlue;
+}
+
+p.found::after {
+  content:url('fireworks.png');
+
+}
+
+p.found {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
